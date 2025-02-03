@@ -30,6 +30,7 @@ class Program
             Console.Write("Некорректный ввод. Повторите ввод валюты: ");
             input = Console.ReadLine()?.Trim().ToUpper();
         }
+
         return input.ToUpper();
     }
 
